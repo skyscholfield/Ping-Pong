@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 
-    <title>Ping-Pong</title>
-    <link rel="icon" type="image/png" href="img/ping-pong.jpg">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
+  <title>Ping-Pong</title>
+  <link rel="icon" type="image/png" href="img/ping-pong.jpg">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="well">
+    <h1>Ping-Pong</h1>
+    <h2>Let's Play!</h2>
+    <h3>Rules</h3>
+    <h4>Ping pong will count up to your number from one with the following exceptions:
+      <ol>
+        <li>Numbers divisible by 3 are replaced with "ping"</li>
+        <li>Numbers divisible by 5 are replaced with "pong"</li>
+        <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+      </ol>
+      <br>
+    </div>
     <div class="well">
       <form id="number">
         <div class="form-group">
-           <label for="userNumber">Please enter a number here!</label>
-           <input id="userNumber" class="form-control" type="number">
+          <label for="userNumber"><p>Please enter a number here!</p></label>
+          <input id="userNumber" class="form-control" type="number">
         </div>
         <button type="submit" name="button">SUBMIT</button>
       </form>
@@ -22,4 +34,4 @@
     <ul id="output" class="jumbotron">
     </ul>
   </body>
-</html>
+  </html>
