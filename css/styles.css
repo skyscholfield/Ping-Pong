@@ -1,5 +1,7 @@
 #output {
   list-style: none;
   text-align: center;
-  padding: 30px;
+  padding: 5px;
+  margin:1px;
+  display:none;
 }

@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("form#number").submit(function(){
     event.preventDefault();
 
-    var userInput = parseInt($("input#userNumber").val());
+     var userInput = parseInt($("input#userNumber").val());
 
  for (userInput < 1; userInput--;) {
   if (userInput % 15 === 0) {
@@ -16,6 +16,7 @@ $(document).ready(function() {
           $("#output").append("<li>" + userInput + "</li>");
       }
 
+      $("#output").fadeIn(800);
       console.log(userInput);
     };
   });
